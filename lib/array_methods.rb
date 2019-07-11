@@ -16,11 +16,15 @@ def using_reverse(array)
 end
 
 def using_first(array)
-
+  a = [ "q", "r", "s", "t" ]
+  a.first     #=> "q"
+  a.first(2)  #=> ["q", "r"]
 end
 
 def using_last(array)
-
+  a = [ "w", "x", "y", "z" ]
+  a.last     #=> "z"
+  a.last(2)  #=> ["y", "z"]
 end
 
 def using_size(array)
