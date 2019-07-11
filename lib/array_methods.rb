@@ -1,5 +1,7 @@
 def using_include(array, element)
-
+  class Person
+    include Greeter
+  end
 end
 
 def using_sort(array)
