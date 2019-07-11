@@ -5,7 +5,9 @@ def using_include(array, element)
 end
 
 def using_sort(array)
-
+  arr = ['Banana', 'Apple', 'Mango', 'Passionfruit', 'Pineapple']
+  arr.sort_by{ |word| word.length }
+  => ["Apple", "Mango", "Banana", "Pineapple", "Passionfruit"]
 end
 
 def using_reverse(array)
