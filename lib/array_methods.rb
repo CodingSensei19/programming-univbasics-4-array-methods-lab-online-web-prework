@@ -11,7 +11,7 @@ def using_sort(array)
 end
 
 def using_reverse(array)
-  arr.sort_by { |word| -word.length } 
+  arr.sort_by { |word| -word.length }
   => ["Passionfruit", "Pineapple", "Banana", "Apple", "Mango"]
 end
 
